@@ -16,5 +16,10 @@
     * Create github repo (no initialization including README)
     * Navigate to package folder
     * `git status` to check all the files that have not been added and commited
+    * `git add .` to add all files to the repo
+    * `git commit -m "TEXT"` to commit all the changes/add
+    * `git branch` to see if you are indeed in master
     * `git remote add origin git@github.com:[REPO NAME]` to add a remote
-    * 
+    * `git remote -v` to see if fetch and push have been properly assigned
+    * `git push -u origin master` make first push to GitHub
+15.
