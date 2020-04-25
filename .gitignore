@@ -4,6 +4,6 @@
 .Ruserdata
 .Rbuildignore
 FARSfun.Rproj
-*.Rmd
+README.Rmd
 inst/doc
 pkgsteps.md
