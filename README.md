@@ -2,9 +2,9 @@
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
 [![Travis build
-status](https://travis-ci.com/akram-syed/FARSfunc.svg?branch=master)](https://travis-ci.com/akram-syed/FARSfunc)
+status](https://travis-ci.com/akram-syed/FARSfun.svg?branch=master)](https://travis-ci.com/akram-syed/FARSfun)
 [![AppVeyor build
-status](https://ci.appveyor.com/api/projects/status/github/akram-syed/FARSfunc?branch=master&svg=true)](https://ci.appveyor.com/project/akram-syed/FARSfunc)
+status](https://ci.appveyor.com/api/projects/status/github/akram-syed/FARSfun?branch=master&svg=true)](https://ci.appveyor.com/project/akram-syed/FARSfun)
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 
 # BUILDING AN R PACKAGE
