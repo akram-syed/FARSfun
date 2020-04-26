@@ -31,23 +31,23 @@ read data from the US National Highway Traffic Safety Administration’s
 
 The R package build will be a success if:
 
-  - The package contain the correct R file(s) under the [`/R`
+  - The package contains the correct R file(s) under the [`/R`
     directory](https://github.com/akram-syed/FARSfun/tree/master/R)
-  - The package contain a [`/man`
+  - The package contains a [`/man`
     directory](https://github.com/akram-syed/FARSfun/tree/master/man)
     with corresponding documentation files
-  - The package contain a
+  - The package contains a
     [vignette](https://github.com/akram-syed/FARSfun/tree/master/vignettes)
     which provides a meaningful description of the package and how it
     should be used
-  - The package have tests included in the [`/tests`
+  - The package has tests included in the [`/tests`
     directory](https://github.com/akram-syed/FARSfun/tree/master/tests)
   - The package has a [NAMESPACE
     file](https://github.com/akram-syed/FARSfun/blob/master/NAMESPACE)
-  - The [`README.md`
+  - A [`README.md`
     file](https://github.com/akram-syed/FARSfun/blob/master/README.md)
-    appropriate badges
-  - The build of this package passing on
+    with appropriate badges
+  - The build of this package passes on
     [Travis](https://travis-ci.com/github/akram-syed/FARSfun) and
     [AppVeyor](https://ci.appveyor.com/project/akram-syed/farsfun)
   - The build logs for this package on Travis and AppVeyor are free of
