@@ -19,10 +19,7 @@ The `fars_read_years` function reads file(s) and creates `dat` data tables for t
 The function displays a warning message if an invalid year is entered and returns NULL.
 }
 \examples{
-\dontrun{
-    fars_read_years("2012")
-    fars_read_years(c("2013", 2014, "2015"))
-    fars_read_years(2013:2015)
-}
+fars_read_years(c("2013", 2014, "2015"))
+fars_read_years(2013:2015)
 
 }

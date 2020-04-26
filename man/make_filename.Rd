@@ -19,9 +19,7 @@ The `make_filename` function creates a file name `accident_[year].csv.bz2` given
 The `year` paramater should be valid.
 }
 \examples{
-\dontrun{
-    make_filename("2013")
-    make_filename(2014)
-}
+make_filename("2013")
+make_filename(2014)
 
 }

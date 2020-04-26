@@ -1,5 +1,7 @@
 ---
 title: "FARS Functions"
+subtitle: "Akram Syed"
+date: "`r Sys.Date()`"
 output: rmarkdown::html_vignette
 vignette: >
   %\VignetteIndexEntry{FARS Functions}
@@ -53,17 +55,15 @@ make_filename(2014)
 ### 4.3. `fars_read_years`
 The `fars_read_years` function reads file(s) and creates `dat` data tables for the year(s) needed -- provided the years argument is valid.
 
-```{r readyears, eval=FALSE}
-fars_read_years("2012")
-fars_read_years(c("2013", 2014, "2015"))
-fars_read_years(2013:2015)
+```{r readyears, warning=FALSE}
+fars_read_years(c("2013", 2014))
+fars_read_years(2014:2015)
 ```
 
 ### 4.4. `fars_summarize_years`
 The `fars_summarize_years` function retrieves data tables and summarizes counts by `year` and `MONTH`.
 
-```{r summarize, eval=FALSE}
-fars_summarize_years("2012")
+```{r summarize, warning=FALSE}
 fars_summarize_years(c("2013", 2014, "2015"))
 fars_summarize_years(2013:2015)
 ```
@@ -71,10 +71,9 @@ fars_summarize_years(2013:2015)
 ### 4.5. `fars_map_state`
 The `fars_map_state` function plots fatal data on a map for the state and year provided.
 
-```{r mapstate, eval=FALSE}
+```{r mapstate, warning=FALSE}
 fars_map_state(12, 2014)
 fars_map_state("1", "2015")
-fars_map_state("3", 2013)
 ```
 
 For more information, visit this package's [GitHub page](https://github.com/akram-syed/FARSfun).

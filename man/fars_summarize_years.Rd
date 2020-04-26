@@ -19,10 +19,7 @@ The `fars_summarize_years` function retrieves data tables and summarizes counts 
 Inerited function errors are displayed if the `years` argument is out of range.
 }
 \examples{
-\dontrun{
-    fars_summarize_years("2012")
-    fars_summarize_years(c("2013", 2014, "2015"))
-    fars_summarize_years(2013:2015)
-}
+fars_summarize_years(c("2013", 2014, "2015"))
+fars_summarize_years(2013:2015)
 
 }

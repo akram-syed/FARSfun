@@ -25,10 +25,7 @@ If there are no accidents/observations, a message is displayed and the function 
 If the `year` is out of range, inherited function error messages are displayed.
 }
 \examples{
-\dontrun{
-    fars_map_state(12, 2014)
-    fars_map_state("1", "2015")
-    fars_map_state("3", 2013)
-}
+fars_map_state(1, 2015)
+fars_map_state("10", 2013)
 
 }

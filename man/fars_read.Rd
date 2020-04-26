@@ -18,3 +18,9 @@ The `fars_read` function reads FARAS data and converts it to a `dplyr` data tabl
 \note{
 Function execution is stopped and an error message is displayed if the file name does not exist.
 }
+\examples{
+\dontrun{
+    data <- 2014 \%>\% make_filename \%>\% fars_read
+}
+
+}
