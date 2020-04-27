@@ -2,7 +2,7 @@ Package: FARSfun
 Type: Package
 Title: Building an R Package
 Version: 0.1.0
-Authors@R: person("Akram", "Syed", email = "akram.syed@gmail.com", role = c("aut", "cre"))
+Authors@R: person("Akram", "Syed", email = "akram.m.syed@gmail.com", role = c("aut", "cre"))
 Description: An exercise in creating, writing, documenting, and testing an R package.
     Contains R functions to read data from the US NHTSA FARS.
 License: GPL-3
@@ -15,7 +15,7 @@ Imports:
    readr,
    tidyr,
    magrittr
-Suggests: 
+Suggests:
     knitr,
     rmarkdown,
     testthat
